@@ -1,0 +1,18 @@
+{
+  "name": "ih-e2e-tests",
+  "version": "1.0.0",
+  "description": "testcafe e2e testing",
+  "main": "buy-test.js",
+  "scripts": {
+    "buy-process-headless": "testcafe chrome:headless buy-test.js",
+    "buy-process": "testcafe chrome buy-test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "I Han",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^0.23.2",
+    "testcafe-reporter-smtp": "0.0.2",
+    "yargs": "^12.0.5"
+  }
+}

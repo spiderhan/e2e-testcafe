@@ -1,0 +1,407 @@
+{
+    "fixtures": [
+        {
+            "name": "New Fixture",
+            "pageUrl": "www.thehut.com",
+            "tests": [
+                {
+                    "name": "New Test",
+                    "commands": [
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('#search-text')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#search-text')"
+                                        },
+                                        "ruleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#searchForm').find('[name=\"search\"]')"
+                                        },
+                                        "ruleType": "form-input"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('[title=\"Try Our Search...\"][name=\"search\"].search-input.input-overlay.js-e2e-search-box.blur')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#searchForm').find('[title=\"Try Our Search...\"][name=\"search\"].search-input.input-overlay.js-e2e-search-box.blur')"
+                                        },
+                                        "ruleType": "id-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('fieldset').withText('Search').find('[title=\"Try Our Search...\"][name=\"search\"].search-input.input-overlay.js-e2e-search-box.blur')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.search-wrap').find('[title=\"Try Our Search...\"][name=\"search\"].search-input.input-overlay.js-e2e-search-box.blur')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('fieldset').withText('Search').find('input')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#searchForm').find('fieldset').find('input')"
+                                        },
+                                        "ruleType": "id-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').nth(1).find('header').find('div').find('div').nth(4).find('div').nth(1).find('div').find('form').find('fieldset').find('input')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 169,
+                                "offsetY": 30
+                            },
+                            "text": " ",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "1"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('#search-text')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#search-text')"
+                                        },
+                                        "ruleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#searchForm').find('[name=\"search\"]')"
+                                        },
+                                        "ruleType": "form-input"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('[title=\"Try Our Search...\"][name=\"search\"].search-input.input-overlay.js-e2e-search-box.blur')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#searchForm').find('[title=\"Try Our Search...\"][name=\"search\"].search-input.input-overlay.js-e2e-search-box.blur')"
+                                        },
+                                        "ruleType": "id-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('fieldset').withText('Search').find('[title=\"Try Our Search...\"][name=\"search\"].search-input.input-overlay.js-e2e-search-box.blur')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.search-wrap').find('[title=\"Try Our Search...\"][name=\"search\"].search-input.input-overlay.js-e2e-search-box.blur')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('fieldset').withText('Search').find('input')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#searchForm').find('fieldset').find('input')"
+                                        },
+                                        "ruleType": "id-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').nth(1).find('header').find('div').find('div').nth(4).find('div').nth(1).find('div').find('form').find('fieldset').find('input')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 169,
+                                "offsetY": 30
+                            },
+                            "text": " ",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "2"
+                        },
+                        {
+                            "selector": null,
+                            "studio": {
+                                "selectors": null
+                            },
+                            "keys": "enter",
+                            "type": "press-key",
+                            "callsite": "3"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('[alt^=\"BRITA Maxtra+ Marella Cool Water Filter Jug Annual\"]')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('[alt^=\"BRITA Maxtra+ Marella Cool Water Filter Jug Annual\"]')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#divSearchResults').find('[alt^=\"BRITA Maxtra+ Marella Cool Water Filter Jug Annual\"]')"
+                                        },
+                                        "ruleType": "id-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Quick View').nth(18).find('[alt^=\"BRITA Maxtra+ Marella Cool Water Filter Jug Annual\"]')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('[data-track=\"product-image\"][class^=\"product-image unit size1of1 last-unit quickview-ho\"]').nth(3).find('[alt^=\"BRITA Maxtra+ Marella Cool Water Filter Jug Annual\"]')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Quick View').nth(18).nth(18).find('a').find('img')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('[data-track=\"product-image\"][class^=\"product-image unit size1of1 last-unit quickview-ho\"]').nth(3).nth(3).find('a').find('img')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#divSearchResults').find('div').nth(16).find('div').find('div').find('div').find('a').find('img')"
+                                        },
+                                        "ruleType": "id-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').nth(1).find('div').nth(171).find('section').find('section').nth(1).find('div').find('div').find('div').nth(7).find('div').nth(16).find('div').find('div').find('div').find('a').find('img')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 143,
+                                "offsetY": 129
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "5"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('[class^=\"cat-button buynow js-buynow thg-track productbuy\"][data-e2e=\"addToBasketButton\"][data-component=\"ajaxBasket\"][data-componentload=\"helper\"][data-initialized=\"true\"]')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('[class^=\"cat-button buynow js-buynow thg-track productbuy\"][data-e2e=\"addToBasketButton\"][data-component=\"ajaxBasket\"][data-componentload=\"helper\"][data-initialized=\"true\"]')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#page-container').find('[class^=\"cat-button buynow js-buynow thg-track productbuy\"][data-e2e=\"addToBasketButton\"][data-component=\"ajaxBasket\"][data-componentload=\"helper\"][data-initialized=\"true\"]')"
+                                        },
+                                        "ruleType": "id-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('p').withText('BUY NOW').find('[class^=\"cat-button buynow js-buynow thg-track productbuy\"][data-e2e=\"addToBasketButton\"][data-component=\"ajaxBasket\"][data-componentload=\"helper\"][data-initialized=\"true\"]')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.product-simple').find('[class^=\"cat-button buynow js-buynow thg-track productbuy\"][data-e2e=\"addToBasketButton\"][data-component=\"ajaxBasket\"][data-componentload=\"helper\"][data-initialized=\"true\"]')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('a').withText('BUY NOW')"
+                                        },
+                                        "ruleType": "text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#page-container').find('a').withText('BUY NOW')"
+                                        },
+                                        "ruleType": "id-text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('p').withText('BUY NOW').find('a')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#page-container').find('section').find('section').find('div').find('div').nth(6).find('div').find('section').find('p').nth(4).find('a')"
+                                        },
+                                        "ruleType": "id-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').nth(1).find('div').nth(172).find('section').find('section').find('div').find('div').nth(6).find('div').find('section').find('p').nth(4).find('a')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 51,
+                                "offsetY": 16
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "6"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('a').withText('VIEW BASKET')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('a').withText('VIEW BASKET')"
+                                        },
+                                        "ruleType": "text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.btn.btn-primary.js-e2e-quickView-basket')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.basketAlertButtons').find('a').withText('VIEW BASKET')"
+                                        },
+                                        "ruleType": "attr-text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.basketAlertButtons').find('.btn.btn-primary.js-e2e-quickView-basket')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('CONTINUE SHOPPING VIEW BASKET').nth(9).find('.btn.btn-primary.js-e2e-quickView-basket')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.basketAlertButtons').find('a').nth(1)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('CONTINUE SHOPPING VIEW BASKET').nth(9).nth(9).find('a').nth(1)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').nth(304).find('div').find('div').find('div').find('div').find('div').find('div').find('div').find('div').nth(4).find('div').nth(1).find('a').nth(1)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 72,
+                                "offsetY": 21
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "8"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
